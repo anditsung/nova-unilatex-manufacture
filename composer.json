@@ -1,0 +1,37 @@
+{
+    "name": "anditsung/manufacture",
+    "description": "Nova Manufacture Module",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "authors": [
+        {
+            "name": "anditsung",
+            "email": "anditsung@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": ">=2",
+        "eminiarts/nova-permissions": ">0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anditsung\\Manufacture\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anditsung\\Manufacture\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
